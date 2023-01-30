@@ -1,0 +1,58 @@
+table {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	box-shadow: 10px 10px 10px black;
+	margin-top: 25px;
+	font-size: 17px;
+}
+
+.B {
+	width: 80px;
+	height: 30px;
+	background: linear-gradient(red, yellow);
+	color: black;
+}
+
+.B:hover {
+	background: linear-gradient(to right, red, yellow);
+}
+
+.pure-menu {
+	width: 365px;
+	height: 600px;
+}
+
+.pure-menu-list {
+	/* 	margin: 1px; */
+	/* 	padding: 1px; */
+	font-size: 25px;
+	background-color: burlywood;
+	color: black;
+}
+
+.pure-menu-link {
+	color: black;
+}
+
+.pure-menu-item {
+	padding: 2px;
+	margin: 3px;
+}
+
+.pure-menu-children {
+	background-color: #72c7ff;
+}
+
+.pure-menu-heading {
+	color: #003cff;
+}
+
+.custom-display {
+	display: inline-block;
+}
+
+pure-menu custom-display {
+	color: #009900;
+	font-size: 50px;
+	font-weight: bold;
+}
