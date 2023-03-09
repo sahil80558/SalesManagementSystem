@@ -1,24 +1,6 @@
-table {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	box-shadow: 10px 10px 10px black;
-	margin-top: 25px;
-	font-size: 17px;
-}
-
-.B {
-	width: 80px;
-	height: 30px;
-	background: linear-gradient(red, yellow);
-	color: black;
-}
-
-.B:hover {
-	background: linear-gradient(to right, red, yellow);
-}
 
 .pure-menu {
-	width: 365px;
+	width: 323px;
 	height: 600px;
 }
 
@@ -26,7 +8,7 @@ table {
 	/* 	margin: 1px; */
 	/* 	padding: 1px; */
 	font-size: 25px;
-	background-color: burlywood;
+	background-color:#acfbff;
 	color: black;
 }
 
@@ -55,4 +37,14 @@ pure-menu custom-display {
 	color: #009900;
 	font-size: 50px;
 	font-weight: bold;
+}
+.B {
+	width: 80px;
+	height: 30px;
+	background: linear-gradient(red, yellow);
+	color: black;
+}
+
+.B:hover {
+	background: linear-gradient(to right, red, yellow);
 }

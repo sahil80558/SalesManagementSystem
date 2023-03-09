@@ -7,7 +7,7 @@ public class ConnectionProvider {
 	private ConnectionProvider() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql:///flight_MS?useSSL=false&allowPublicKeyRetrieval=true","root","S@hil8055");
+			Connection con=DriverManager.getConnection("jdbc:mysql:///sales_management?useSSL=false&allowPublicKeyRetrieval=true","root","S@hil8055");
 			Statement st=con.createStatement();
 			this.st=st;
 			this.con=con;
@@ -15,7 +15,7 @@ public class ConnectionProvider {
 			
 		}
 	}
-	static ConnectionProvider getObject(){
+	public static ConnectionProvider getObject(){
 		if(dBConnector==null) {
 			dBConnector=new ConnectionProvider();
 		}
