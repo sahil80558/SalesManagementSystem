@@ -1,0 +1,50 @@
+
+.pure-menu {
+	width: 323px;
+	height: 600px;
+}
+
+.pure-menu-list {
+	/* 	margin: 1px; */
+	/* 	padding: 1px; */
+	font-size: 25px;
+	background-color:#acfbff;
+	color: black;
+}
+
+.pure-menu-link {
+	color: black;
+}
+
+.pure-menu-item {
+	padding: 2px;
+	margin: 3px;
+}
+
+.pure-menu-children {
+	background-color: #72c7ff;
+}
+
+.pure-menu-heading {
+	color: #003cff;
+}
+
+.custom-display {
+	display: inline-block;
+}
+
+pure-menu custom-display {
+	color: #009900;
+	font-size: 50px;
+	font-weight: bold;
+}
+.B {
+	width: 80px;
+	height: 30px;
+	background: linear-gradient(red, yellow);
+	color: black;
+}
+
+.B:hover {
+	background: linear-gradient(to right, red, yellow);
+}
